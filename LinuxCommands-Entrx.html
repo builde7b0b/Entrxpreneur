@@ -1,0 +1,178 @@
+
+
+<center><h1>Linux Commands </h1></center>
+<br><br>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888">##########################</span>
+<span style="color: #888888">## LINUX SYSTEM COMMANDS #</span>
+<span style="color: #888888">##########################</span>
+
+
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> uname <span style="color: #333333">-</span>a                       <span style="color: #333333">=&gt;</span> Display linux system information
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> uname <span style="color: #333333">-</span>r                       <span style="color: #333333">=&gt;</span> Display kernel release information 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> cat <span style="color: #333333">/</span>etc<span style="color: #333333">/</span>redhat_release        <span style="color: #333333">=&gt;</span> Show which version of redhat installed 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> uptime                         <span style="color: #333333">=&gt;</span> Show how <span style="color: #007020">long</span> system running <span style="color: #333333">+</span> load 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> hostname                       <span style="color: #333333">=&gt;</span> Show system host name
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> hostname <span style="color: #333333">-</span>i                    <span style="color: #333333">=&gt;</span> Display the IP address of the host 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> last reboot                    <span style="color: #333333">=&gt;</span> Show system reboot history 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> date                           <span style="color: #333333">=&gt;</span> Show the current date <span style="color: #000000; font-weight: bold">and</span> time 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> cal                            <span style="color: #333333">=&gt;</span> Show this month calendar 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> w                              <span style="color: #333333">=&gt;</span> Display who <span style="color: #000000; font-weight: bold">is</span> online 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> whoami                         <span style="color: #333333">=&gt;</span> Who you are logged <span style="color: #000000; font-weight: bold">in</span> <span style="color: #008800; font-weight: bold">as</span> 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> finger user                    <span style="color: #333333">=&gt;</span> Display information about user 
+</pre></div>
+
+
+
+
+
+
+
+
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888">############################</span>
+<span style="color: #888888">## LINUX HARDWARE COMMANDS #</span>
+<span style="color: #888888">############################</span>
+
+
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> dmesg                          <span style="color: #333333">=&gt;</span> Detected hardware <span style="color: #000000; font-weight: bold">and</span> boot messages (dmesg many more options)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> cat <span style="color: #333333">/</span>proc<span style="color: #333333">/</span>cpuinfo              <span style="color: #333333">=&gt;</span> CPU model
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> cat <span style="color: #333333">/</span>proc<span style="color: #333333">/</span>meminfo              <span style="color: #333333">=&gt;</span> Hardware memory
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> cat <span style="color: #333333">/</span>proc<span style="color: #333333">/</span>interrupts           <span style="color: #333333">=&gt;</span> Lists the number of interrupts per CPU per I<span style="color: #333333">/</span>O device
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> lshw                           <span style="color: #333333">=&gt;</span> Displays information on hardware configuration of the system
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> lsblk                          <span style="color: #333333">=&gt;</span> Displays block device related information <span style="color: #000000; font-weight: bold">in</span> Linux (sudo yum install util<span style="color: #333333">-</span>linux<span style="color: #333333">-</span>ng)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> free <span style="color: #333333">-</span>m                        <span style="color: #333333">=&gt;</span> Used <span style="color: #000000; font-weight: bold">and</span> free memory (<span style="color: #333333">-</span>m <span style="color: #008800; font-weight: bold">for</span> MB) (free command <span style="color: #000000; font-weight: bold">in</span> detail)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> lspci <span style="color: #333333">-</span>tv                      <span style="color: #333333">=&gt;</span> Show PCI devices (very useful to find vendor ids)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> lsusb <span style="color: #333333">-</span>tv                      <span style="color: #333333">=&gt;</span> Show USB devices 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> lshal                          <span style="color: #333333">=&gt;</span> Show a <span style="color: #007020">list</span> of <span style="color: #007020">all</span> devices <span style="color: #008800; font-weight: bold">with</span> their properties 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> dmidecode                      <span style="color: #333333">=&gt;</span> Show hardware info <span style="color: #008800; font-weight: bold">from</span> <span style="color: #0e84b5; font-weight: bold">the</span> <span style="color: #0e84b5; font-weight: bold">BIOS</span> (vendor details)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> hdparm <span style="color: #333333">-</span>i <span style="color: #333333">/</span>dev<span style="color: #333333">/</span>sda	          <span style="color: #888888"># Show info about disk sda </span>
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> hdparm <span style="color: #333333">-</span>tT <span style="color: #333333">/</span>dev<span style="color: #333333">/</span>sda	         <span style="color: #888888"># Do a read speed test on disk sda</span>
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> badblocks <span style="color: #333333">-</span>s <span style="color: #333333">/</span>dev<span style="color: #333333">/</span>sda	         <span style="color: #888888"># Test for unreadable blocks on disk sda</span>
+</pre></div>
+
+
+
+
+
+
+
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888">########################## </span>
+<span style="color: #888888"># LINUX STATISTICS TOOLS #</span>
+<span style="color: #888888">########################## </span>
+
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> top                              <span style="color: #333333">=&gt;</span> Display <span style="color: #000000; font-weight: bold">and</span> update the top cpu processes 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> mpstat <span style="color: #0000DD; font-weight: bold">1</span>                         <span style="color: #333333">=&gt;</span> Display processors related statistics 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> vmstat <span style="color: #0000DD; font-weight: bold">2</span>                         <span style="color: #333333">=&gt;</span> Display virtual memory statistics (very useful performance tool)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> iostat <span style="color: #0000DD; font-weight: bold">2</span>                         <span style="color: #333333">=&gt;</span> Display I<span style="color: #333333">/</span>O statistics (<span style="color: #0000DD; font-weight: bold">2</span>sec Intervals) 
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> tail <span style="color: #333333">-</span>n <span style="color: #0000DD; font-weight: bold">500</span> <span style="color: #333333">/</span>var<span style="color: #333333">/</span>log<span style="color: #333333">/</span>messages    <span style="color: #333333">=&gt;</span> Last <span style="color: #0000DD; font-weight: bold">10</span> kernel<span style="color: #333333">/</span>syslog messages (everyday use tail options)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> tcpdump <span style="color: #333333">-</span>i eth1                  <span style="color: #333333">=&gt;</span> Capture <span style="color: #007020">all</span> packets flows on interface eth1 (useful to sort network issue)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> tcpdump <span style="color: #333333">-</span>i eth0 <span style="background-color: #fff0f0">&#39;port 80&#39;</span>        <span style="color: #333333">=&gt;</span> Monitor <span style="color: #007020">all</span> traffic on port <span style="color: #0000DD; font-weight: bold">80</span> ( HTTP )
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> lsof                             <span style="color: #333333">=&gt;</span> List <span style="color: #007020">all</span> <span style="color: #007020">open</span> files belonging to <span style="color: #007020">all</span> active processes<span style="color: #333333">.</span>(sysadmin favorite command)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> lsof <span style="color: #333333">-</span>u testuser                 <span style="color: #333333">=&gt;</span> List files opened by specific user
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> free <span style="color: #333333">-</span>m                          <span style="color: #333333">=&gt;</span> Show amount of RAM (daily usage command)
+ 
+<span style="color: #FF0000; background-color: #FFAAAA">$</span> watch df <span style="color: #333333">-</span>h                      <span style="color: #333333">=&gt;</span> Watch changeable data continuously(interesting linux command)
+  
+</pre></div>
+
+<br><br>
+<br><br>
+<center><center><h2><u>Join my Newsletter!</u> </h2></center>
+<p>Business, Technology, Entrepreneurship News and Tips.</p>
+<br/><br/>
+
+Plus <b>FREE E-Books</b> Every Week Delivered to Your Inbox!</p>
+<iframe src="https://madmimi.com/signups/180111/iframe" scrolling="no" frameborder="0" height="486" style="max-width: 400px; width: 100%;"></iframe></center>
+
+<br/><br/>
+<br/><br/>
+<center><center><h2><u> Follow My Feeds.</u> </h2></center>
+<!-- feed--> 
+	
+<center><iframe align="center" width='380' height='594' src='http://iconosquare.com/widget.php?choice=myfeed&username=entrxpreneur&show_infos=false&linking=statigram&width=380&height=594&mode=grid&layout_x=3&layout_y=4&padding=10&photo_border=true&background=FFFFFF&text=777777&widget_border=true&radius=5&border-color=DDDDDD&user_id=201406484&time=1451284184925' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:380px; height:594px;'></iframe></center>
+<br/><br/>
+<br/><br/>
+
+
+
+<!-- Chat --> 
+<script type="text/javascript"
+	src="//www.pubble.io/resources/javascript/QAInit.js">
+	</script>
+	<script type="text/javascript">
+	var lpQA = lpQA({
+	appID:"18787",
+	genQ: "false",
+	identifier: "18787"
+	});
+	</script>
+
+
+
+
+
+<center><h2>Contact Form</h2>
+<iframe src="https://madmimi.com/signups/326735/iframe" scrolling="no" frameborder="0" height="787" style="max-width: 400px; width: 100%;"></iframe>
+</center>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<center><p>&copy; <i>Entrxpreneur 2016</i> <br>All rights reserved. <br><i>Design: <a href="http://templated.co">TEMPLATED</a>. Edited: <a href="http://www.eugenebjr.com">Ecb Jr.</i></a>.<br><a href="https://gumroad.com/ecbjrfree">Download Free E-Books</a><br>
+
+<a href="http://gumroad.com/ecbjrstore">Other Products</a><br>
+<a href="http://www.teespring.com/stores/eugenes-store">Clothing / Merch</a><br></p>
+
+<h4>Feeds.<h4>
+<a href="http://twitter.com/entrxpreneur"><img src="http://i.imgur.com/9u9Qr8z.png" title="Twitter" /></a>
+
+<a href="http://entrxpreneur.us"><img src="http://i.imgur.com/v4nqXfp.png" title="source: imgur.com" /></a>
+<a href="http://entrxpreneur.us"><img src="http://i.imgur.com/RmyZx41.png" title="Blog/Tumblr" /></a>
+<a href="http://entrxpreneur.us"><img src="http://i.imgur.com/8JMH5ww.png" title="source: imgur.com" /></a>
+<a href="http://www.eugenebrownblog.wordpress.com"><img src="http://i.imgur.com/VOTsced.png" title="Wordpress!" /></a>
+<a href="http://entrxpreneur.us"><img src="http://i.imgur.com/FmLm3kJ.png" title="source: imgur.com" /></a>
+<a href="https://github.com/builde7b0b"><img src="http://i.imgur.com/2uQbX79.png" title="Check out My Code!" /></a>
+
+<a href="http://entrxpreneur.us"><img src="http://i.imgur.com/Q4dXk0W.png" title="Join me on Youtube" /></a>
+<br>
+
+<h4>Supported<h4>
+<a href="http://entrxpreneur.us"><img src="http://i.imgur.com/h9WCUwi.png" title="source: imgur.com" /></a>
+<a href="http://entrxpreneur.us"><img src="http://i.imgur.com/nrV1YNI.png" title="source: imgur.com" /></a>
+</center>
+					</footer>
+
+			</div>
